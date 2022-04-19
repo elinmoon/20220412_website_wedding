@@ -1,0 +1,28 @@
+section#concept{
+    height: 660px;
+    padding: 40px 0 20px;
+    background: #ccc;
+}
+
+section#concept .wrap{
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: #ffa;
+}
+
+section#concept .wrap .title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin: left top;
+}
+
+section#concept .wrap .title h2{
+    line-height: 1;
+    padding-left: 20px;
+    border-left: 4px solid #000;
+}
